@@ -33,11 +33,6 @@ const Checkout = () => {
               <span className='value'>Всего: {cartTotal}$</span>
             </td>
           </CheckoutTotal>
-          <CheckoutPayment >
-            <td>
-              <PaymentForm/>
-            </td>
-          </CheckoutPayment>
         </CheckoutFoot>
       </CheckoutContainer>
   )
