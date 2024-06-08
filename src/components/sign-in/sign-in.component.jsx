@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
-import { signInAuthUserWithEmailAndPassword, signInWithGooglePopup } from '../../utils/firebase/firebase.utils'
 import FormInput from '../form-input/form-input.component'
 import Button, { BUTTON_TYPE_CLASSES } from '../button/button.component'
 import { ButtonsContainer, SignUpContainer } from './sign-in.styles.jsx'
 import { useDispatch } from 'react-redux'
-import { onGoogleSignInStart } from '../../store/user/user.saga'
 import { emailSignInStart } from '../../store/user/user.action'
 import { googleSignIn } from '../../store/user/user.action'
 

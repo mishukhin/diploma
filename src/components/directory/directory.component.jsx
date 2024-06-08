@@ -1,4 +1,3 @@
-import { useEffect } from "react"
 import DirectoryItem from "../directory-item/directory-item.component"
 import { DirectoryContainer } from  './directory.styles.jsx'
 import { selectDirectory, selectDirectoryCategories } from "../../store/categories/category.selector.js"
